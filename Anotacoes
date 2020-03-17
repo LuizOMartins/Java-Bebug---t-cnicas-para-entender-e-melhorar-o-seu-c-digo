@@ -1,0 +1,29 @@
+
+Navegando nos metodos:
+
+F6 > next line (step over).
+
+Resume: Continua a aplicação.
+
+F5 > Step into (entra nos metodos)
+
+F7 >  Step Return (retornar)
+
+__________________________
+
+Aba Variables:
+- Perpectiva
+
+
+__________________________
+
+
+
+Breakpoint condicional:
+
+Exemplo de uso:  uma laço que percorre uma lista, mas precisamos ver o item 100, é inviavel ficar dando Step várias vezes.
+
+Botão direito no breakpoint > breakpoint preferences >  condicional >  (inserir condicional).
+
+
+__________________________

@@ -27,3 +27,18 @@ Botão direito no breakpoint > breakpoint preferences >  condicional >  (inserir
 
 
 __________________________
+
+
+
+Tratando Exceções:
+
+
+Breakpoint condicional para exceções. 
+Window > Preferences > Java > Debug >  desmarque o campo ( Suspend execution on uncaught exceptions)
+- para a IDE nao suspender a execução por exceções nao capturadas.
+
+*pegar somento exceções que desejar.
+
+
+*Quando não sabemos qual exceção queremos, uma alternativa é usar a java.lang.Exception, pois todas as exceções são herdadas dela, então qualquer uma delas será capturada pelo breakpoint.
+

@@ -42,3 +42,40 @@ Window > Preferences > Java > Debug >  desmarque o campo ( Suspend execution on 
 
 *Quando não sabemos qual exceção queremos, uma alternativa é usar a java.lang.Exception, pois todas as exceções são herdadas dela, então qualquer uma delas será capturada pelo breakpoint.
 
+____________________________
+
+
+Em modo debug > botão direito > watch ( acompanhar valor de uma variavel )
+
+Show (ve valores, mouse hover)
+
+ Executar um metodo com o breakpoint:  botão direito > inspect 
+
+ ___________________________
+
+
+ Tomcat: container Web de código fonte aberto baseado em Java que foi criado para executar aplicações Web que utilizam tecnologias Servlets e JSPs.
+- lib (bibliotecas)
+- webapps(aplicações deploiadas)
+catalina: O Catalina trata-se da implementação do Container Servlet conforme especificado no Java Servlet API. 
+Server: O Server representa todo o Catalina Servlet Engine e é usado como um elemento de nível mais alto para uma simples instância do Tomcat. 
+Arquivo catalina.sh:  arquivo onde fica as configurações do tomcat na arquitetura JPDA.
+JPDA: (Java Platform Debugger Architecture).
+
+Debug Remoto: 
+
+->Configurar Servidor remoto:
+(No icono de debug *baratinah*)Debug configuration: Remote Java Aplication > new >  
+- nome
+- aplicação
+- URL e porta
+
+Logs no Tomcat: dentro do Tomcat > log > catalina.out
+
+Má prativa: try/cath sem tratamento ou print de exceções, ou seja, sem tratamento nenhum.
+
+e.printStrackTracer: Todo o rastreamento da pilha é impresso junto com os números de linha e os nomes das classes para identificar o local exato da exceção
+
+
+SQL:  desc nome_table -> ver caracteristicas de uma tabela.
+
